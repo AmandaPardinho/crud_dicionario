@@ -1,5 +1,8 @@
+{% extends 'base.html' %}
+
 <!-- Este template corresponde à página que o usuário acessa para
 cadastrar um novo produto ou editar um produto existente -->
+{% block content %}
     <h1>Cadastro de Produtos</h1>
     <form method="POST" enctype="multipart/form-data" action="" class="needs-validation" data-toggle="validator">
         <div class="form-group">
@@ -38,3 +41,4 @@ cadastrar um novo produto ou editar um produto existente -->
        
 
     </form>
+{% endblock %}
